@@ -27,7 +27,7 @@ int hsh(info_t *info, char **av)
 				find_cmd(info);
 		}
 		else if (interactive(info))
-			_putchar('n');
+			_putchar('\n');
 		free_info(info, 0);
 	}
 	write_history(info);
